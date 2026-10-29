@@ -5,185 +5,6 @@
 	(uuid "e605265b-eb65-4535-af7d-ceb0ef9aa570")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Avionics_Symbols:1N5819WS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1N5819WS"
-				(at -7.112 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810202112_Guangdong-Hottech-1N5819WS_C191023.pdf"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Guangdong Hottech 40 V 1 A Schottky barrier rectifier, SOD-323"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part #" "C191023"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N5819WS_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5819WS_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Avionics_Symbols:AO3400A"
 			(pin_names
 				(offset 0)
@@ -5069,6 +4890,320 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:DMC3071LVT"
 			(pin_names
 				(offset 0)
@@ -6107,6 +6242,12 @@
 		(uuid "03da4cc4-c570-4aca-bfc3-b7d321c4ae20")
 	)
 	(junction
+		(at 66.04 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d1a5f12-0706-4060-ae95-a91a8a3fbc5f")
+	)
+	(junction
 		(at 172.72 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6125,7 +6266,7 @@
 		(uuid "1534035d-f6ec-4d5f-a402-7aa1ba96e8f7")
 	)
 	(junction
-		(at 67.31 49.53)
+		(at 54.61 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15941c40-19f6-4d7a-9535-763d0d564968")
@@ -6153,6 +6294,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "265d5b28-7d68-4126-a71c-c208ab08e4cb")
+	)
+	(junction
+		(at 81.28 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29fafefc-d78e-4ed8-a198-fea6b3358824")
 	)
 	(junction
 		(at 81.28 38.1)
@@ -6209,12 +6356,6 @@
 		(uuid "5f6edb9f-aec1-4b1e-a86d-2489e3ebaf6c")
 	)
 	(junction
-		(at 81.28 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d47de13-07fc-4ff5-98ae-976cb5a33800")
-	)
-	(junction
 		(at 157.48 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6245,7 +6386,7 @@
 		(uuid "98426c55-2443-4b6a-9e10-974a101a5e82")
 	)
 	(junction
-		(at 41.91 44.45)
+		(at 29.21 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a88f32d9-7d16-4505-b6f3-e0fde220702c")
@@ -6257,7 +6398,7 @@
 		(uuid "a96ddf39-eb98-492c-8c06-749ce6d0c6e3")
 	)
 	(junction
-		(at 67.31 38.1)
+		(at 54.61 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9e86df6-ac56-4f71-b107-e6dd315279b9")
@@ -6366,7 +6507,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 38.1) (xy 67.31 40.64)
+			(xy 54.61 38.1) (xy 54.61 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6386,7 +6527,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 49.53) (xy 67.31 49.53)
+			(xy 29.21 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6606,7 +6747,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 44.45) (xy 41.91 43.18)
+			(xy 29.21 44.45) (xy 29.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6656,7 +6797,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 67.31 48.26)
+			(xy 54.61 49.53) (xy 54.61 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6756,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 38.1) (xy 77.47 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d56303-c568-4842-9f2e-e932b929b3b3")
+	)
+	(wire
+		(pts
 			(xy 144.78 49.53) (xy 144.78 45.72)
 		)
 		(stroke
@@ -6773,6 +6924,16 @@
 			(type default)
 		)
 		(uuid "5706eeec-e0e2-487d-952f-230dba88c838")
+	)
+	(wire
+		(pts
+			(xy 66.04 49.53) (xy 81.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fb76c4-4b07-4dc8-b01f-330586c6e66d")
 	)
 	(wire
 		(pts
@@ -6896,7 +7057,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 81.28 49.53)
+			(xy 54.61 49.53) (xy 66.04 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7066,7 +7227,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 38.1) (xy 71.12 38.1)
+			(xy 54.61 38.1) (xy 60.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7126,7 +7287,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 38.1) (xy 67.31 38.1)
+			(xy 29.21 38.1) (xy 54.61 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7586,7 +7747,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 44.45) (xy 41.91 44.45)
+			(xy 19.05 44.45) (xy 29.21 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7603,6 +7764,16 @@
 			(type default)
 		)
 		(uuid "e43d5572-b755-4d1e-8498-b40e61ec1bb6")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 66.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a03677-f89e-45a6-b19a-5de09bc3971d")
 	)
 	(wire
 		(pts
@@ -7703,16 +7874,6 @@
 			(type default)
 		)
 		(uuid "f981ce60-1e3b-4e95-a087-c7fdabe4ecf7")
-	)
-	(wire
-		(pts
-			(xy 76.2 38.1) (xy 77.47 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb20576d-f0cf-449f-b8a5-3fba400ec5e2")
 	)
 	(wire
 		(pts
@@ -7985,7 +8146,7 @@
 		(uuid "9f99d483-6e1b-4aea-a21f-2f0daaae3cdd")
 	)
 	(label "VBAT_SNS"
-		(at 31.75 44.45 0)
+		(at 19.05 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11143,7 +11304,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 41.91 40.64 0)
+		(at 29.21 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11154,7 +11315,7 @@
 		(fields_autoplaced yes)
 		(uuid "5eba398a-87a9-4a11-8095-650b9062c29c")
 		(property "Reference" "R1"
-			(at 44.45 39.3699 0)
+			(at 31.75 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11165,7 +11326,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 44.45 41.9099 0)
+			(at 31.75 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11176,7 +11337,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.91 40.64 0)
+			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11187,7 +11348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 40.64 0)
+			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11198,7 +11359,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 41.91 40.64 0)
+			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11209,7 +11370,7 @@
 			)
 		)
 		(property "JLCPCB Part Class" "Basic"
-			(at 41.91 40.64 0)
+			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11220,7 +11381,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25900"
-			(at 41.91 40.64 0)
+			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11231,7 +11392,7 @@
 			)
 		)
 		(property "MPN" "0402WGF4701TCE"
-			(at 41.91 40.64 0)
+			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11242,7 +11403,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 41.91 40.64 0)
+			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11487,7 +11648,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 67.31 38.1 0)
+		(at 54.61 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11498,7 +11659,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b450cc1-e520-431b-a3ad-1c7443d5fdd2")
 		(property "Reference" "#PWR04"
-			(at 67.31 41.91 0)
+			(at 54.61 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11509,7 +11670,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 67.31 33.02 0)
+			(at 54.61 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11519,7 +11680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 38.1 0)
+			(at 54.61 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11530,7 +11691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 38.1 0)
+			(at 54.61 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11541,7 +11702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 67.31 38.1 0)
+			(at 54.61 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12798,7 +12959,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 41.91 46.99 0)
+		(at 29.21 46.99 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12810,7 +12971,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d570d44-df2f-43b8-9069-dd71568e96bd")
 		(property "Reference" "R2"
-			(at 44.45 45.7199 0)
+			(at 31.75 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12821,7 +12982,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 44.45 48.2599 0)
+			(at 31.75 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12832,7 +12993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12843,7 +13004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +13015,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12865,7 +13026,7 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12876,7 +13037,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12887,7 +13048,7 @@
 			)
 		)
 		(property "MPN" "0402WGF1001TCE"
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12898,7 +13059,7 @@
 			)
 		)
 		(property "JLCPCB Part Class" "Basic"
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12909,7 +13070,7 @@
 			)
 		)
 		(property "Sourcing Notes" "Selected in user-supplied bom(1).xls; verify assembly stock at order time."
-			(at 41.91 46.99 0)
+			(at 29.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,131 +13665,6 @@
 			(project "stone"
 				(path "/e605265b-eb65-4535-af7d-ceb0ef9aa570"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Avionics_Symbols:1N5819WS")
-		(at 73.66 38.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0af404b-c14c-461e-95e8-7a4932aa7d5d")
-		(property "Reference" "D5"
-			(at 70.866 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 70.866 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 73.66 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810202112_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 73.66 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Guangdong Hottech 40 V 1 A Schottky barrier rectifier, SOD-323"
-			(at 73.66 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C191023"
-			(at 73.66 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part Class" "Extended"
-			(at 73.66 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N5819WS"
-			(at 73.66 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Guangdong Hottech"
-			(at 73.66 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fa35af53-dc25-4d9b-bc86-c6ca2708e005")
-		)
-		(pin "1"
-			(uuid "1323dd06-6ea3-49a8-802a-dd8e89c9737a")
-		)
-		(instances
-			(project "stone"
-				(path "/e605265b-eb65-4535-af7d-ceb0ef9aa570"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15426,7 +15462,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 67.31 45.72 0)
+		(at 54.61 45.72 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15437,7 +15473,7 @@
 		(dnp no)
 		(uuid "dc210dfe-2351-4188-9371-633deb73983b")
 		(property "Reference" "BT1"
-			(at 62.738 42.926 0)
+			(at 50.038 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15448,7 +15484,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 62.738 45.466 0)
+			(at 50.038 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15459,7 +15495,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 67.31 44.196 90)
+			(at 54.61 44.196 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15470,7 +15506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 44.196 90)
+			(at 54.61 44.196 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15481,7 +15517,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15492,7 +15528,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,7 +15539,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15514,7 +15550,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15525,7 +15561,7 @@
 			)
 		)
 		(property "LCSC Part #" "C131337"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15536,7 +15572,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15547,7 +15583,7 @@
 			)
 		)
 		(property "MPN" "B2B-PH-K-S(LF)(SN)"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15558,7 +15594,7 @@
 			)
 		)
 		(property "JLCPCB Part Class" "Extended"
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15569,7 +15605,7 @@
 			)
 		)
 		(property "Sourcing Notes" "Selected in user-supplied bom(1).xls; verify assembly stock at order time."
-			(at 67.31 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16371,6 +16407,92 @@
 			(project "stone"
 				(path "/e605265b-eb65-4535-af7d-ceb0ef9aa570"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 66.04 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd47a289-4cab-4fad-ab3a-67cd86833ec3")
+		(property "Reference" "Q2"
+			(at 66.04 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 66.04 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 67.945 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 69.85 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 66.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e00a0cfe-7f39-400f-9d91-3d6d0d4fe7dc")
+		)
+		(pin "1"
+			(uuid "8d3b1a04-2541-4e1d-a570-105ff458b9e3")
+		)
+		(pin "2"
+			(uuid "0fc91a74-32ef-471d-adae-9ab68069c883")
+		)
+		(instances
+			(project "stone"
+				(path "/e605265b-eb65-4535-af7d-ceb0ef9aa570"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
