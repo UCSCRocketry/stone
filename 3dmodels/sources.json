@@ -1,0 +1,27 @@
+{
+  "models": {
+    "E22-400MM22S.step": {
+      "source": "../../avionics-library/Models/E22-400MM22S.step",
+      "reference": "U1"
+    },
+    "ublox_MAX.step": {
+      "source": "../../cobble/avionics-library/Models/ublox_MAX.step",
+      "reference": "U5",
+      "alignment": "Centered XY and moved underside of model to z=0 with footprint model offset (0.15237, -0.056136, 0.4) mm."
+    },
+    "ST_UFQFPN-20_3x3mm_P0.5mm.step": {
+      "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_DFN_QFN.3dshapes/ST_UFQFPN-20_3x3mm_P0.5mm.step",
+      "reference": "U3",
+      "license": "CC-BY-SA 4.0 with KiCad exception; original license retained in STEP header."
+    },
+    "Molex_734120110.step": {
+      "source": "https://hub.allspice.io/AllSpice-Resources/Altium-Celestial-library/raw/branch/master/STEP/Connector/Molex%20734120110.STEP",
+      "reference": "J2",
+      "alignment": "Original model Y-up. KiCad rotation (-90, 0, 180) degrees seats body on PCB and aligns signal contact with pad 1."
+    }
+  },
+  "board_only_footprints": {
+    "H1,H2,H3,H4": "Mounting holes and copper pads are rendered by KiCad as board geometry; no installed fastener specified.",
+    "J1": "Tag-Connect no-legs programming pads and alignment holes; no permanently mounted connector."
+  }
+}
